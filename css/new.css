@@ -1,0 +1,205 @@
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+#faq , #faq1 {
+  max-width: 700px;
+  min-width: 200px;
+  margin: auto;
+  padding: 0 15px;
+  text-align: center;
+}
+@media screen and (max-width:400px) {
+  #faq , #faq1 {
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+section.faq , section.faq1 {
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+#faq ul , #faq1 ul {
+  text-align: left;
+}
+.transition, p, ul li i:before, ul li i:after {
+  transition: all 0.3s;
+}
+
+#faq .no-select, #faq h2 , #faq1 .no-select, #faq1 h2 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+#faq h1 , #faq1 h1 {
+  color: #000;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+#faq h2 , #faq1 h2 {
+  color: #cc071e;
+  font-family: 'hm_light', sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: left;
+  padding: 15px 15px 0;
+  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+  transition: .2s;
+}
+
+#faq p, #faq1 p {
+  color: #333;
+  text-align: left;
+  font-family: 'hm_light', sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  position: relative;
+  overflow: hidden;
+  max-height: 750px;
+  will-change: max-height;
+  contain: layout;
+  display: inline-block;
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 0 50px 0 15px;
+  transition: .3s opacity, .6s max-height;
+  hyphens: auto;
+  z-index: 2;
+}
+
+#faq ul, #faq1 ul {
+  list-style: none;
+  perspective: 900;
+  padding: 0;
+  margin: 0;
+}
+#faq ul li , #faq1 ul li  {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  /*padding-bottom: 4px;*/
+  /*padding-top: 18px;*/
+  background: #fff;
+  box-shadow: 0 3px 10px -2px #b798101a;
+  -webkit-tap-highlight-color: transparent;
+}
+#faq ul li + li , #faq1 ul li + li{
+  margin-top: 15px;
+}
+#faq ul li:last-of-type , #faq1 ul li:last-of-type {
+  padding-bottom: 0;
+}
+#faq ul li i , #faq1 ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 28px;
+  right: 15px;
+}
+#faq ul li i:before, ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: #cc071e;
+  width: 3px;
+  height: 9px;
+}
+#faq1 ul li i:before, ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: #cc071e;
+  width: 3px;
+  height: 9px;
+}
+#faq ul li i:before , #faq1 ul li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+#faq ul li i:after, #faq1 ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+#faq ul li input[type=checkbox] , #faq1 ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  touch-action: manipulation;
+}
+#faq ul li input[type=checkbox]:checked ~ h2 {
+  color: #eee4e4;
+}
+#faq1 ul li input[type=checkbox]:checked ~ h2 {
+  color: #f5efef;
+}
+#faq ul li input[type=checkbox]:checked ~ p {
+  /*margin-top: 0;*/
+  max-height: 0;
+  transition: .3s;
+  opacity: 0;
+  /*transform: translate(0, 50%);*/
+}
+#faq1 ul li input[type=checkbox]:checked ~ p {
+  /*margin-top: 0;*/
+  max-height: 0;
+  transition: .3s;
+  opacity: 0;
+  /*transform: translate(0, 50%);*/
+}
+#faq ul li input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+#faq1 ul li input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+#faq ul li input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+#faq1 ul li input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}

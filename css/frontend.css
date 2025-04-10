@@ -1,0 +1,36 @@
+.front-end-text{
+    text-align: justify;height: auto;margin: auto;
+font-size:18px ;}
+
+    .front-end-text:hover{
+        /* position: absolute; 
+            top: 40%; 
+            left: 40%;  */
+            /* font-size: 40px;  */
+            background: linear-gradient(to right, #a8adad, #bcceca); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+    }
+    .heading:hover{
+        font-family: Arial, Helvetica, sans-serif; 
+        width: 32%;
+        background: linear-gradient(to right, #61eafc,rgb(4, 252, 136)); 
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .card{
+        height: 330px;
+        text-align: justify;
+    }
+    .b-content{
+        text-align: justify;
+        height: 300px;
+        margin: auto;
+    }
+    @media screen and (max-width:1000px) {
+        .card{
+            height: 230px;
+           
+        }
+        
+    }

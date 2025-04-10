@@ -1,0 +1,549 @@
+.heading{
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 100%;
+    background: linear-gradient(to right, #61eafc,rgb(4, 252, 136)); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.heading:hover{
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 100%;
+    background: linear-gradient(to right, #44d6b2,rgb(150, 231, 254)); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.heading-sub{
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 100%;
+    background: linear-gradient(to right, #61eafc,rgb(4, 252, 136)); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 26px;
+}
+#faq h2 , #faq1 h2 , #faq1 span , #faq span {
+    background: linear-gradient(to bottom right, rgb(206, 24, 33), rgb(98, 148, 241));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 20px;
+    width: 500px;
+    padding-top: 15px;
+}
+.row .box-size{
+    height: 340px;
+}
+.card-python-main{
+    height: 450px;
+}
+.leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  .back-end-top{
+    margin-top: 0px;
+  }
+ .faq ul li{
+    padding-top: 15px;
+ }
+ #faq1 ul li{
+    padding:15px;
+    padding-bottom: 0px;
+}
+.java-box{
+    height: 320px;
+}
+  .top-para{
+    text-align: justify;
+     margin-top: 50%;
+  }
+ .card-h{
+    height: 400px;
+ }
+
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #ec8a8a;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: rgb(30, 28, 28);
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.alignment{
+    margin-left: 28%;
+    margin-top: 5px;
+
+}
+@media  screen and (max-width:900px) {
+    .alignment{
+        margin-left: 5%;
+    }
+}
+/* .back-end-top{
+    margin-top: 0px;
+} */
+ul li p{
+    font-size: 19px;
+    color: rgb(158, 149, 21);
+    font-weight: bold;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+   
+}
+/* .header{
+    background-color: transparent;
+} */
+#faq h2 , #faq1 h2 , #faq1 span , #faq span {
+    background: linear-gradient(to bottom right, rgb(206, 24, 33), rgb(98, 148, 241));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 20px;
+    width: 500px;
+    padding-top: 15px;
+}
+#more {display: none;}
+#myBtn1{
+background: linear-gradient(skyblue, greenyellow);
+text-align: center;
+border-radius: 10px;
+margin: 10px;
+
+
+}
+.about1{
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    min-height: 900px;
+    background-color: var(--primary);
+    word-spacing: 0.9px;
+    
+}
+
+
+p{
+    font-size: 19px;
+    text-align: justify;
+}
+.about1 ul{
+    line-height: 35px;
+}
+hr{
+    background: linear-gradient(greenyellow,pink, skyblue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  
+}
+.front-end-text{
+    margin-top: 4%;
+}
+
+.faq1 ul li span{
+    text-align: left;
+}
+@media screen and (max-width:900px){
+    .rightcolumn{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightcolumn div{
+        width: 100%;
+    
+    }
+    .top-para{
+        text-align: justify;
+         margin-top: 5px;
+      }
+}
+@media screen and (max-width:1200px){
+    /* .back-end-top{
+        margin-top: 0px;
+    } */
+    .who-join .heading-sub{
+        font-size: 25px;
+    }
+
+}
+@media screen and (max-width:1000px){
+   
+    .top-para{
+        text-align: justify;
+         margin-top: 15px;
+      }
+     
+     /* .back-end-top{
+        margin-top: 0px;
+    } */
+
+    .card-h{
+        height: 410px;
+     }
+}
+@media  screen and (max-width:991px) {
+    .card-h{
+        height: 250px;
+     }
+     .java-box{
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    ul li{
+        width: 100%;
+    }
+    .front-end-text{
+        margin-top: 0px;
+    }
+   
+   #faq h2 , #faq1 h2, #faq1 span, #faq span{
+    font-size: 13px;
+   }
+  
+    
+}
+
+
+@media screen and (max-width:454px) {
+    ul li{
+        width: 100%;
+    }
+    .front-end-text{
+        margin-top: 0px;
+    }
+   
+    #faq{
+        width: 120%;
+    }
+    #faq1{
+        width:100%;
+    }
+    #faq h2 , #faq1 h2,  #faq span{
+        font-size: 14px;
+        
+       }
+    #faq1 span {
+        font-size: 13px;
+    }
+   .about1 ul{
+    line-height: 25px;
+}
+
+.about1 .heading{
+    font-size: 23px;
+}
+.about1 p {
+    font-size: 15px;
+}
+.about1 ul{
+    font-size: 15px;
+}
+.faq1 ul li{
+    text-wrap: wrap;
+    /* text-align: justify; */
+}
+.card p{
+    font-size: 15px;
+}
+/* .back-end-top{
+    margin-top: 160px;
+} */
+    
+}
+@media screen and (max-width: 900px) {
+    .leftcolumn, .rightcolumn {   
+      width: 80%;
+      margin: auto;
+      padding: 0;
+    }
+    .ul-content li{
+        width: 90%;
+        margin: auto;
+      
+    }
+    .para-light{
+        text-align: justify;
+    }
+  
+  .card .fakeimg{
+    height: 400px;
+
+  }
+  .card .fakeimg img{
+    height: 360px;
+   
+  }
+  }
+input{
+    min-width: 200px;
+}
+  .card h2{
+    font-size: 30px;
+}
+.card h5{
+    font-size: 40px;
+}
+
+.main-heading{
+    background: linear-gradient(skyblue,greenyellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 8%;
+}
+
+form{
+    background: linear-gradient(to bottom right, skyblue, rgb(188, 247, 71));
+    max-width: 100%;
+    min-width: 400px;
+    margin: auto;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+
+
+    input,button{
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 6px;
+    }
+    button{
+             background-color: var(--primary);
+             color: #a4f27f;
+    }
+   
+
+}
+.paragraphs{
+    background: linear-gradient(rgb(175, 238, 175),rgb(205, 245, 252));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 16px;
+    text-align: justify;
+    
+}
+.paragraph{
+    background: linear-gradient(rgb(237, 251, 186),rgb(252, 205, 214));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 16px;
+    text-align: justify;
+}
+.offer-1{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.who-join{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.who-join div{
+    width:33%;
+    margin: auto;
+    background: var(--primary);
+    box-shadow: 2px 3px 4px 1px grey; 
+    padding: 10px;
+    margin: 10px;
+    min-width:350px;
+    border-radius: 10px;
+    text-align: justify;
+    height: 350px;
+
+}
+@media (max-width:1200px){
+    .who-join div{
+        min-width:290px;
+    }
+    p{
+        font-size: 17px;
+    }
+}
+@media (max-width:992px){
+    .who-join{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .who-join div{
+        min-width:320px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .row .box-size{
+        height: 260px;
+    }
+    .card-python-main{
+        height: 250px;
+    }
+}
+@media (max-width:576px){
+    /* .who-join{
+        flex-direction: column;
+        width: 1800px;
+       justify-content: center;
+        
+    } */
+ .back-end-top{
+            margin-top: 26px;
+        } 
+    .card .fakeimg{
+        height: 350px;
+    
+      }
+      .card .fakeimg img{
+        height: 310px;
+       
+      }
+      p{
+        font-size: 15px;
+    }
+}
+@media (max-width:768px){
+    .who-join{
+        grid-template-columns: 95%;
+        margin: auto;
+        
+    }
+    .who-join div{
+        width: 100%;
+    }
+
+   
+}
+@media (max-width:700px){
+    #faq{
+        width: 100%;
+    }
+    
+   
+}
+@media (max-width:444px){
+    .who-join{
+        flex-direction: column;
+        width: 100%;
+        
+       justify-content: center;
+        
+    }
+    .card-python-main{
+        height: 330px;
+    }
+    p{
+        font-size: 14px;
+    }
+        .card .fakeimg{
+          height: 300px;
+      
+        }
+        .card .fakeimg img{
+          height: 260px;
+         
+        }
+        
+        .back-end-top{
+            margin-top: 100px;
+        } 
+
+    .who-join div{
+        min-width: 280px;
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .card h2{
+        font-size: 40px;
+    }
+    .card h5{
+        font-size: 25px;
+    }
+    #faq h2 , #faq1 h2 , #faq1 span , #faq span {
+        background: linear-gradient(to bottom right, rgb(206, 24, 33), rgb(98, 148, 241));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: bold;
+        font-size: 11px;
+        width: 500px;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width:400px){
+    .card .fakeimg{
+        height: 200px;
+    
+      }
+      .java-box{
+        height: 340px;
+    }
+      .back-end-top{
+        margin-top: 140px;
+    }
+      .card .fakeimg img{
+        height: 160px;
+       
+      }
+      .about1 h2{
+        font-size: 30px;
+      }
+      /* #faq p{
+        font-size: 12px;
+        text-align: justify;
+      } */
+      #faq h2 , #faq1 h2 , #faq1 span , #faq span {
+        background: linear-gradient(to bottom right, rgb(206, 24, 33), rgb(98, 148, 241));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: bold;
+        font-size: 14px;
+       
+        width: 500px;
+        padding-top: 15px;
+    }
+    #faq .h2{
+        font-size: 12.5px;
+    }
+    #faq .h21, #faq p{
+        font-size: 12px;
+        text-align: justify;
+    }
+   
+    #faq span{
+        padding-left: 20px;
+    }
+}
+.div-course{
+   text-align: justify;
+}
+#faq ul li:nth-child(even) , #faq1 ul li:nth-child(even) {
+  background: linear-gradient(to right ,skyblue,rgb(196, 252, 185));border-radius: 10px;transition: 2s;
+}
+#faq ul li:nth-child(odd), #faq1 ul li:nth-child(odd) {
+    background: linear-gradient(to left ,skyblue,rgb(196, 252, 185));border-radius: 10px;transition: 2s;
+  }
+ 
