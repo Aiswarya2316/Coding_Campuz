@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="bg-blue-950 text-white">
+
+<!-- Navbar -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-blue-900 shadow-md">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <a href="index.html">
+          <img class="h-10" src="../Coding_Campuz/images/logo.png" alt="Logo">
+        </a>
+      </div>
+
+      <!-- Menu (Desktop) -->
+      <div class="hidden md:flex space-x-8">
+        <a href="index.html" class="text-white hover:text-blue-300 font-medium transition">Home</a>
+        <a href="index.html?section=C-home#about" class="text-white hover:text-blue-300 font-medium transition">About</a>
+        <div class="relative group">
+          <button class="text-white hover:text-blue-300 font-medium">Courses</button>
+          <div class="absolute hidden group-hover:block bg-blue-800 mt-2 py-2 rounded shadow-md">
+            <a href="index.html?section=C-front_end" class="block px-4 py-2 text-white hover:bg-blue-700 text-sm">Front-end Programs</a>
+            <a href="index.html?section=C-backend" class="block px-4 py-2 text-white hover:bg-blue-700 text-sm">Back-end Programs</a>
+            <a href="index.html?section=C-databases" class="block px-4 py-2 text-white hover:bg-blue-700 text-sm">Databases</a>
+            <a href="Coding_Campuz2.html?section=C-base_pgms" class="block px-4 py-2 text-white hover:bg-blue-700 text-sm">Basic Programs</a>
+          </div>
+        </div>
+        <a href="index.html?section=C-home#plans" class="text-white hover:text-blue-300 font-medium transition">Offers</a>
+        <div class="relative group">
+          <button class="text-white hover:text-blue-300 font-medium">Blog</button>
+          <div class="absolute hidden group-hover:block bg-blue-800 mt-2 py-2 rounded shadow-md">
+            <a href="Coding_Campuz2.html?section=C-article" class="block px-4 py-2 text-white hover:bg-blue-700 text-sm">Articles</a>
+            <a href="Coding_Campuz3.html?section=C-privacy" class="block px-4 py-2 text-white hover:bg-blue-700 text-sm">Privacy</a>
+            <a href="Coding_Campuz2.html?section=C-terms" class="block px-4 py-2 text-white hover:bg-blue-700 text-sm">Terms</a>
+          </div>
+        </div>
+        <a href="Coding_Campuz3.html?section=C-gallery1" class="text-white hover:text-blue-300 font-medium transition">Gallery</a>
+        <a href="contact.html" class="text-white hover:text-blue-300 font-medium transition">Contact</a>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="hidden md:flex space-x-4">
+        <a href="https://www.facebook.com/profile.php?id=61552738178467&mibextid=ZbWKwL" class="text-white hover:text-blue-300">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/coding_campuz?igsh=MTVkdzltYnlsNTlsdQ==" class="text-white hover:text-blue-300">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="md:hidden flex items-center">
+        <button id="menu-toggle" class="text-white focus:outline-none">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 bg-blue-800">
+    <a href="index.html" class="block py-2 text-white hover:text-blue-300">Home</a>
+    <a href="index.html?section=C-home#about" class="block py-2 text-white hover:text-blue-300">About</a>
+    <a href="index.html?section=C-front_end" class="block py-2 text-white hover:text-blue-300">Front-end Programs</a>
+    <a href="index.html?section=C-backend" class="block py-2 text-white hover:text-blue-300">Back-end Programs</a>
+    <a href="index.html?section=C-databases" class="block py-2 text-white hover:text-blue-300">Databases</a>
+    <a href="Coding_Campuz2.html?section=C-base_pgms" class="block py-2 text-white hover:text-blue-300">Basic Programs</a>
+    <a href="index.html?section=C-home#plans" class="block py-2 text-white hover:text-blue-300">Offers</a>
+    <a href="Coding_Campuz2.html?section=C-article" class="block py-2 text-white hover:text-blue-300">Articles</a>
+    <a href="Coding_Campuz3.html?section=C-privacy" class="block py-2 text-white hover:text-blue-300">Privacy</a>
+    <a href="Coding_Campuz2.html?section=C-terms" class="block py-2 text-white hover:text-blue-300">Terms</a>
+    <a href="Coding_Campuz3.html?section=C-gallery1" class="block py-2 text-white hover:text-blue-300">Gallery</a>
+    <a href="contact.html" class="block py-2 text-white hover:text-blue-300">Contact</a>
+  </div>
+</nav>
+
+<!-- Hero Banner -->
+<section class="mt-20 text-center py-16 px-4 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700">
+  <h1 class="text-4xl md:text-5xl font-bold text-white mb-2">Get in Touch</h1>
+  <p class="text-blue-200 text-lg max-w-xl mx-auto">We are always here to help. Reach out for queries, collaborations, or just to say hi!</p>
+</section>
+
+<!-- Contact Section -->
+<section class="max-w-7xl mx-auto p-6 grid md:grid-cols-2 gap-10 bg-blue-900 text-white rounded-xl shadow-lg mt-10">
+
+  <!-- Contact Form -->
+  <div>
+    <h2 class="text-3xl font-semibold mb-6">Send Us a Message</h2>
+    <form class="space-y-5">
+      <div>
+        <label class="block text-sm font-medium mb-1">Name</label>
+        <input type="text" class="w-full p-3 border border-blue-300 bg-blue-950 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name" />
+      </div>
+      <div>
+        <label class="block text-sm font-medium mb-1">Email</label>
+        <input type="email" class="w-full p-3 border border-blue-300 bg-blue-950 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="your@email.com" />
+      </div>
+      <div>
+        <label class="block text-sm font-medium mb-1">Message</label>
+        <textarea rows="5" class="w-full p-3 border border-blue-300 bg-blue-950 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Write your message..."></textarea>
+      </div>
+      <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">Send Message</button>
+    </form>
+  </div>
+
+  <!-- Info + Map -->
+  <div class="bg-blue-800 p-6 rounded-xl shadow-inner">
+    <h2 class="text-3xl font-semibold mb-6 text-white">Our Contact Info</h2>
+    <div class="space-y-4">
+      <p><strong>Address:</strong><br>123 Blue Street,<br>Blueville, BW 45678</p>
+      <p><strong>Phone:</strong> <a href="tel:+1234567890" class="text-blue-300 hover:underline">+1 234 567 890</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@example.com" class="text-blue-300 hover:underline">info@example.com</a></p>
+    </div>
+    <div class="mt-6">
+      <iframe class="w-full h-64 rounded" src="https://maps.google.com/maps?q=blueville&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-950 text-white text-center py-6 mt-16">
+  <p>&copy; 2025 Coding Campuz. All rights reserved.</p>
+</footer>
+
+<!-- Menu toggle script -->
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+  menuToggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>
